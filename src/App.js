@@ -18,9 +18,23 @@ class App extends Component {
 	}
 
 
+
 	render() {
+		// To make the CSS work, attach the class `board`
+		// to a div and make sure its direct children 
+		// have the class `tile`.
+
+		// EX:
+		// The final rendered html should look like the following:
+		// <div class="board">
+		// 		<div class="tile" />
+		// 		<div class="tile" />
+		// 		<div class="tile" />
+		// 		<div class="tile" />
+		//	</div>
+
 		return (
-			<div className="board">
+			<div>
 			</div>
 		);
 	}

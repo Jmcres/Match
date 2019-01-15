@@ -35,5 +35,13 @@
 	display: grid;
 	grid-template-columns: 100px 100px 100px 100px;
 	grid-template-rows: 100px 100px 100px 100px;
+	grid-row-gap: 5px;
+	grid-column-gap: 5px;
+}
+
+.tile {
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
 }
 
